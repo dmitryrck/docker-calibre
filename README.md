@@ -2,7 +2,7 @@
 
 Calibre using docker.
 
-Run:
+## Running
 
 ```shell
 docker run --rm \
@@ -16,4 +16,10 @@ docker run --rm \
   -v $HOME/Books:$HOME/Books \
   -v $HOME/Dropbox/Calibre-config:$HOME/.config/calibre \
   dmitryrck/calibre calibre
+```
+
+Or use [x11docker](https://github.com/mviereck/x11docker):
+
+```terminal
+$ x11docker dmitryrck/calibre calibre
 ```
